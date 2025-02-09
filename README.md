@@ -1,2 +1,6 @@
 # marmoset_chimerism_demography
-Repository for Soni et al. 2025: "Accounting for chimerism in demographic inference: reconstructing the history of common marmosets (Callithrix jacchus) from high-quality, whole-genome, population-level data"
+Repository for Soni et al. 2025: "Accounting for chimerism in demographic inference: reconstructing the history of common marmosets (Callithrix jacchus) from high-quality, whole-genome, population-level data".
+
+method_testing folder contains scripts to generate chimeric and WF simulations, perform demographic inference using neutral SFS-based estimators, generate summary statistics, and plot results. All coding scripts can be found in method_testing/scripts/. Folders also contain results files from demographic inference and summary statistics. For information on how to run scripts, and steps in the pipeline, see method_testing_README.txt
+
+empirical_inference folder contains scripts to generate mutation and recombination rate maps, parameter combinations, run simulations, generate summary statistics, perform ABC inference and plot results. All coding scripts can be found in empirical_inference/scripts/. Folders also contain empirical summary statistics, and simulated summary statistics, as well as rate maps, parameter files, and results of empirical inference with dadi. For information on how to run scripts, and steps in the pipeline, see empirical_inference_README.txt
